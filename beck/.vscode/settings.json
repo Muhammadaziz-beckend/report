@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "asgi",
+        "asgiref",
+        "authtoken",
+        "Browsable",
+        "corsheaders",
+        "djangorestframework",
+        "dotenv",
+        "gbubguu",
+        "kngv",
+        "makemigrations",
+        "phonenumber",
+        "phonenumberslite",
+        "pycache",
+        "pymodbus",
+        "pytz",
+        "redoc",
+        "sqlparse",
+        "uritemplate",
+        "venv",
+        "viewsets",
+        "yasg"
+    ]
+}
