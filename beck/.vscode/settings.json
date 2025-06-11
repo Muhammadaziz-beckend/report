@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "amoute",
         "asgi",
         "asgiref",
         "authtoken",
@@ -10,6 +11,7 @@
         "gbubguu",
         "kngv",
         "makemigrations",
+        "modelfields",
         "phonenumber",
         "phonenumberslite",
         "pycache",
