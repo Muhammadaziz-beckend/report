@@ -58,3 +58,6 @@ class Report(DataTimeCUAbstract):
     class Meta:
         verbose_name = "отчет"
         verbose_name_plural = "отчеты"
+
+    def __str__(self):
+        return f"{self.campania}-{self.title}"

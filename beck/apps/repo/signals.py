@@ -30,5 +30,15 @@ def report_handler(sender, instance: Report, created, **kwargs):
             old_amoute=instance.amoute,
         )
 
-        print(campania.amount_money)
         campania.save()
+
+
+@receiver(post_delete, sender=Report)
+def report_delete_handel(sender, instance: Report, *args, **kwargs):
+
+    if instance.type_repo == instance.ADD:
+        instance.campania.amount_money -= instance.amoute
+    else:
+        instance.campania.amount_money += instance.amoute
+
+    instance.campania.save()
