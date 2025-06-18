@@ -12,6 +12,7 @@
         "kngv",
         "makemigrations",
         "modelfields",
+        "paginations",
         "phonenumber",
         "phonenumberslite",
         "pycache",
@@ -22,6 +23,7 @@
         "uritemplate",
         "venv",
         "viewsets",
-        "yasg"
+        "yasg",
+        "ysge"
     ]
 }

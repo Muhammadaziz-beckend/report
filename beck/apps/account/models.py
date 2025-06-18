@@ -58,6 +58,7 @@ class User(AbstractUser):
         "campania.Campania",
         models.CASCADE,
         related_name="users",
+        blank=True,
         null=True,
         verbose_name="Компания",
     )
