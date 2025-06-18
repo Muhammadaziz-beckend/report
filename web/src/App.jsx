@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./static/css/style.css";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<>hello</>} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
