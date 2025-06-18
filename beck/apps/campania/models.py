@@ -4,7 +4,6 @@ from utils.models import DataTimeCUAbstract
 
 
 class Campania(DataTimeCUAbstract):
-
     name = models.CharField(
         "Названия",
         max_length=65,
