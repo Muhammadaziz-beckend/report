@@ -2,12 +2,13 @@ import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import Button from "@mui/material/Button";
 
-export default function SimpleBackdrop({ open }) {
+export default function SimpleBackdrop({ open, text }) {
   return (
     <div>
-      <Button type="submit">
-        Войти
+      <Button className="btn_submit" type="submit">
+        {text}
       </Button>
+
       <Backdrop
         sx={(theme) => ({ color: "#fff", zIndex: theme.zIndex.drawer + 1 })}
         open={open}

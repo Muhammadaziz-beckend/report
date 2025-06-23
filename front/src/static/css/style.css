@@ -1,13 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
+    position: relative;
 
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgba(242, 245, 247, 0.904);
+}
+
+.header {
+
+    .container {
+
+        .header_items {
+            padding: 15px 0px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 24px;
+            }
+
+            .menu {
+
+                img {
+                    width: 32px;
+                }
+            }
+        }
+    }
+}
+
+
+.button_add {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+
+    .add {
+        padding: 10px 20px;
+
+        border-radius: 50%;
+        border: none;
+        background-color: blue;
+
+        cursor: pointer;
+        color: wheat;
+
+        font-weight: 700;
+        font-size: 32px;
+    }
 }

@@ -1,0 +1,22 @@
+.form {
+    margin-top: 14rem;
+
+    .from_container {
+
+        max-width: 100%;
+        margin: 0 auto;
+        width: 420px;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn_submit {
+            border: 1px solid #817a7a5c;
+            margin-top: 25px;
+
+            width: 100%;
+        }
+    }
+}

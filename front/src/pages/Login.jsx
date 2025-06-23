@@ -97,7 +97,7 @@ const Login = () => {
             />
           </label>
 
-          <SimpleBackdrop open={open} />
+          <SimpleBackdrop open={open} none_button={true}/>
         </div>
       </form>
       <ToastContainer />

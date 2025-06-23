@@ -1,5 +1,10 @@
 .form_auth {
 
+
+    .from_container {
+        width: 420px;
+    }
+
     .container {
 
         display: flex;
